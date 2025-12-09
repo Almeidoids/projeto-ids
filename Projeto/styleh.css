@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2EAFE;
+}
+
+#banner {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+#menu {
+    background-color: #48B6FA;
+    width: 100%;
+    margin-top: -5px;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: #5FEBF5;
+    box-shadow: 0 0 15px black;
+    border: 1px solid black;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "principal" "secundaria";
+    grid-template-rows: 110vh 80vh;
+}
+
+#principal {
+    grid-area: "principal";
+    border: 4px solid black;
+    box-shadow: 0 0 25px #0E4624;
+    margin: 15px;
+    border-radius: 40px 10px 40px 10px;
+}
+
+#principal img {
+    width: 100vh;
+    margin: 15px 0 5px 25px;
+}
+
+#principal h1 {
+    text-align: center;
+    margin: -600px 0 0 0;
+    padding-left: 650px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#principal p {
+    padding: 20px 50px 0 700px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-align: justify;
+}
+
+#secundaria {
+    grid-area: "secundaria";
+    border: 4px solid black;
+    box-shadow: 0 0 25px #0E4624;
+    margin: 15px;
+    border-radius: 40px 10px 40px 10px;
+}
+
+#secundaria h1 {
+    text-align: center;
+    padding: 10px 0 0 0;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#lado {
+    display: grid;
+    grid-template-areas: "p1" "p2";
+    grid-template-rows: 10px;
+}
+
+#sticker1 {
+    width: 60vh;
+    padding: 20px 0 0 50px;
+}
+
+#secundaria #p1 {
+    grid-area: "p1";
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+    padding: 15px 920px 0 20px;
+}
+
+#sticker2 {
+    width: 400px;
+    height: 230px;
+    padding: 0 0 0 50px;
+    margin-left: 50px;
+}
+
+#secundaria #p2 {
+    grid-area: "p2";
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: justify;
+    padding: 5px 420px 0 420px;
+}
+
+#sticker3 {
+    width: 75vh;
+    padding: 0 0 0 30px;
+}
+
+#rodape {
+    background-color: #A3DBFC;
+    display: flex;
+}
+
+#rodape h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+}
+
+#rodape p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#rodape img {
+    width: 140px;
+    height: 140px;
+}
+
+#dois {
+    flex: 1;
+    padding-left: 160px;
+}

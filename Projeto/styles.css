@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2EAFE;
+}
+
+#menu {
+    background-color: #48B6FA;
+    width: 100%;
+    margin-top: -5px;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: #5FEBF5;
+    box-shadow: 0 0 15px black;
+    border: 1px solid black;
+}
+
+.titulo {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 50px 20px 20px 20px;
+}
+
+.texto {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#conteudo {
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    border: black solid 4px;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 25px #0E4624;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.p {
+    color: #0E4624;
+    margin: 3px;
+    padding: 3px;
+}
+
+#rodape {
+    background-color: #A3DBFC;
+    display: flex;
+}
+
+#rodape h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+}
+
+#rodape p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#rodape img {
+    width: 140px;
+    height: 140px;
+}
+
+#dois {
+    flex: 1;
+    padding-left: 160px;
+}
