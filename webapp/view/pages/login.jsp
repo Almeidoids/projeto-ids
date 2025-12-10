@@ -45,7 +45,7 @@
 
                     session.setAttribute("user", name);
 
-                    response.sendRedirect("./index.jsp"); 
+                    response.sendRedirect("./administration.jsp"); 
                     return;
                 } else {
                     error = "Usuário ou senha incorretos";

@@ -42,7 +42,7 @@
             int rows = stmt.executeUpdate();
 
             if (rows > 0) {
-                out.println("Usuário criado com sucesso");
+            	response.sendRedirect("../view/pages/login.jsp");
             } else {
                 out.println("Falha ao criar usuário");
             }

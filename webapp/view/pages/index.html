@@ -4,7 +4,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Instituto Digital da Sofia</title>
-    <link rel="stylesheet" href="styleh.css"/>
+    <link rel="stylesheet" href="../styles/styleh.css"/>
+    <link rel="stylesheet" href="../styles/rodape.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -12,21 +13,21 @@
 </head>
 <body>
     <header>
-        <img src="/projeto/imagens/test.jpg" id="banner" alt="Banner"/>
+        <img src="../imagens/test.jpg" id="banner" alt="Banner"/>
     </header>
 
     <nav id="menu">
         <ul type="none">
-            <li><a href="home.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="sobre.html">SOBRE</a></li>
-            <li><a href="home.html">BLOG</a></li>
+            <li><a href="blogs.jsp">BLOG</a></li>
             <li><a href="contato.html">CONTATO</a></li>
         </ul>
     </nav>
 
     <main id="container">
         <section id="principal">
-            <img class="imagem" id="dados" src="/projeto/imagens/InformaçãoDestaque.jpg" alt="Destaque"/>
+            <img class="imagem" id="dados" src="../imagens/InformaçãoDestaque.jpg" alt="Destaque"/>
             <h1>Parceria recente</h1>
             <p>
                 É com grande satisfação que comunicamos os resultados da 30ª Feira de Troca de Livros e Gibis, realizada no dia 28 de outubro de 2023, em Guarulhos. Mais uma vez, o evento demonstrou a força da participação popular e o compromisso da comunidade com a leitura, a cultura e a sustentabilidade. A presença de tantas pessoas engajadas reforça a importância de mantermos viva essa iniciativa que promove acesso ao conhecimento de forma gratuita e solidária.<br/>
@@ -37,9 +38,9 @@
 
         <section id="secundaria">
             <h1>Um pouquinho de nós</h1>
-            <img id="sticker1" src="/projeto/imagens/Sticker1.png" alt="sticker1"/>
-            <img id="sticker2" src="/projeto/imagens/Sticker2.jpg" alt="sticker2"/>
-            <img id="sticker3" src="/projeto/imagens/Sticker3.png" alt="sticker3">
+            <img id="sticker1" src="../imagens/Sticker1.png" alt="sticker1"/>
+            <img id="sticker2" src="../imagens/Sticker2.jpg" alt="sticker2"/>
+            <img id="sticker3" src="../imagens/Sticker3.png" alt="sticker3">
             <div id="lado">
                 <div id="p1">Celebrar o Dia Internacional do Idoso é reafirmar nosso compromisso com uma sociedade que honra seus idosos — não apenas com palavras, mas com ações práticas, inclusão e respeito diário.</div>
 
@@ -48,30 +49,40 @@
         </section>
     </main>
 
-    <footer id="rodape">
-        <section id="um">
-            <h1>Projetos Sociais:</h1>
-            <p>
-                Farmácia comunitária<br/>
-                Viva leite<br/>
-                Educacional<br/>
-                Cursos preparatórios<br/>
-                Social
-            </p>
-        </section>
-        <section id="dois">
-            <h1>ONG LAR FELIZ DA SOFIA</h1>
-            <img src="/projeto/imagens/rodape.jpg" alt="rodapé"/>
-        </section>
-        <section>
-            <h1>Fale conosco:</h1>
-            <p>
-                Telefone: (11) 4378-0519<br/>
-                email: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBlBmjblHFGGhkRnksmqstZTLtCqBVpXDWFTFlgZwpJRXVGMvrdffDBpbFRHCwQkqVxFtC">ongdasofia2050@hotmail.com</a><br/>
-                Endereço: Rua Presidente Dutra Nº 120<br/>
-                Vila São Gabriel - SP
-            </p>
-        </section>
-    </footer>
+    <footer class = "footer" >
+        <div class="footer-container">
+      
+          <div class="footer-section">
+            <h3>Projetos Sociais:</h3>
+            
+            <ul>
+		      <li>Farmácia Comunitária</li>
+		      <li>Viva Leite</li>
+		      <li>Educacional</li>
+		      <li>Cursos Preparatórios</li>
+		      <li>Social</li>
+		    </ul>
+          
+          </div>
+      
+          <div class="footer-center">
+            <img src="../imagens/rodape.jpg" alt="Logo da ONG" class="footer-img">
+            <h2 class="footer-title">ONG LAR FELIZ DA SOFIA</h2>
+          </div>
+      
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p>Email:ongdasofia2050@hotmail.com</p>
+            <p>Telefone: (11)4378-0519</p>
+            <p>Endereço: Rua Presidente Dutra n°120  
+                Vila São Gabriel - SP</p>
+          </div>
+      
+        </div>
+      
+        <div class="footer-copy">
+          <p>© 2025 - Todos os direitos reservados.</p>
+        </div>
+      </footer>
 </body>
 </html>
