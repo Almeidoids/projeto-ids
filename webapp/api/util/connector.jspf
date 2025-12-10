@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import = "java.sql.*" %>
+    
+<%!
+
+	public Connection Connect() {
+		try {
+			// Variaveis para acessar o banco de dados
+	        String database = "ong";
+	        String address = "jdbc:mysql://localhost:3306/" + database;
+	        String user  = "root";
+	        
+			// Driver
+			String driver = "com.mysql.jdbc.Driver";
+			
+			// Carregar o Driver na memória
+			Class.forName(driver);
+			
+			// Cria a variavel e abre conexão com o banco de dados
+			Connection connection = DriverManager.getConnection(address, user, "");
+
+			return connection;
+		}
+		
+		catch (Exception e) {
+			return null;
+		}
+	}
+%>
