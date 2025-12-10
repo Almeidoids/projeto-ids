@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E2EAFE;
+}
+
+#menu {
+    background-color: #48B6FA;
+    width: 100%;
+    margin-top: -5px;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: #5FEBF5;
+    box-shadow: 0 0 15px black;
+    border: 1px solid black;
+}
+
+.titulo {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 100px;
+    padding: 50px 20px 0 20px;
+    text-align: center;
+}
+
+header h2 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.texto {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#contato {
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    border: black solid 4px;
+    border-radius: 40px 10px 40px 10px;
+    box-shadow: 0 0 25px #0E4624;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#parteum {
+    padding: 0 570px 0 0;
+}
+
+#partedois {
+    padding: 0 410px 0 0px;
+}
+
+#partetres {
+    padding: 30px 0 0 0;
+}
+
+#rodape {
+    background-color: #A3DBFC;
+    display: flex;
+}
+
+#rodape h1 {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+}
+
+#rodape p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#rodape img {
+    width: 140px;
+    height: 140px;
+}
+
+#dois {
+    flex: 1;
+    padding-left: 160px;
+}
+
+.titulo-contato {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+#imagem {
+    padding: 20px 0 0 230px;
+}
